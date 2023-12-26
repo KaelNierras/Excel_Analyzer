@@ -1,9 +1,6 @@
 <script setup>
 import { useRouter, RouterLink, RouterView } from 'vue-router';
 import NavBarView from './views/NavBarView.vue';
-const $route = useRouter(); // Use useRouter to access $route in script setup
-//console.log('Current Route Name:', $route.currentRoute.name);
-const isContactUsActive = $route.currentRoute.name === 'contactus';
 </script>
 
 
@@ -21,16 +18,12 @@ const isContactUsActive = $route.currentRoute.name === 'contactus';
   <div class="d-flex justify-content-between">
       <NavBarView />
   </div>
-    <div v-if="isContactUsActive">
-      <!-- Render the secondary navigation bar only if the route name is 'contactus' -->
-      <NavBarView />
-    </div>
   </div>
-
   <RouterView />
 </template>
 
 <style scoped>
+
 .header {
   display: flex;
   justify-content: space-around;

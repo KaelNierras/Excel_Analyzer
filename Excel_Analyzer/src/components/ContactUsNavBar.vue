@@ -16,19 +16,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <router-link class="nav-link" to="/careermap">Career Map</router-link>
+              <router-link class="nav-link" to="/careermap">About the PSF</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/skillsmap">Skills Map</router-link>
+              <router-link class="nav-link" to="/skillsmap">Messages</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/functionalskills">Functional Skills</router-link>
+              <router-link class="nav-link" to="/functionalskills">Technical Guide</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/about">Acknowledgment</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/contactus">Contact Us</router-link>
+              <router-link class="nav-link" to="/contactus">Revision Log</router-link>
             </li>
           </ul>
         </div>
@@ -45,8 +45,8 @@
   
   <style scoped>
   .nav-item{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 
   }
   /* Add any component-specific styles here */

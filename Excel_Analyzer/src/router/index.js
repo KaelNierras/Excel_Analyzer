@@ -5,6 +5,11 @@ import CareerMap from '../views/CareerMapView.vue'
 import SkillsMap from '../views/SkillsMapView.vue'
 import FunctionalSkills from '../views/FunctionalSkillsView.vue'
 import ContactUs from '../views/ContactUsView.vue'
+import AboutThePSF from '../views/AboutThePSFView.vue'
+import Message from '../views/MessageView.vue'
+import TechnicalGuide from '../views/TechnicalGuideView.vue'
+import Acknowledgement from '../views/AcknowledgmentView.vue'
+import RevisionLog from '../views/RevisionLogView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +43,31 @@ const router = createRouter({
       path: '/contactus',
       name: 'contactus',
       component: ContactUs
+    },
+    {
+      path: '/abouthePSF',
+      name: 'abouthePSF',
+      component: AboutThePSF
+    },
+    {
+      path: '/message',
+      name: 'message',
+      component: Message
+    },
+    {
+      path: '/technicalguide',
+      name: 'technicalguide',
+      component: TechnicalGuide
+    },
+    {
+      path: '/acknowledgement',
+      name: 'acknowledgement',
+      component: Acknowledgement
+    },
+    {
+      path: '/revisionlog',
+      name: 'revisionlog',
+      component: RevisionLog
     }
   ]
 })
